@@ -20,8 +20,9 @@ const createCard=(todo, index)=>{
 }
 
 function addtask(){
-  
   addItemtoLocal(task.value);
+  document.getElementById("todoinput").value="";
+
 renderList()
 }
 function addItemtoLocal(todo)
