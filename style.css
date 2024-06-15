@@ -110,3 +110,23 @@ margin-top:0px;
 .completed{
     color:green;
 }
+@media screen and (max-width: 600px) {
+  #text {
+    font-size: 3rem;
+  }
+  #mainbox {
+    width: 100%;
+    margin-left: 0px;
+  }
+  #inputwrapper {
+    width: 100%;
+  }
+  #todos {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .todoitem {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
